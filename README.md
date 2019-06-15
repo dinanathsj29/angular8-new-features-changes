@@ -119,6 +119,8 @@ ng generate webWorker video-worker
 ```
 - Read more on CLI Web Worker Support: [https://angular.io/guide/web-worker](https://angular.io/guide/web-worker)
 
+**Summary:**
+
 | Experimental support for Ivy | Experimental support for Bazel | Differential loading   | 
 | -----------------------------|------------------|------------------|
 | `Ivy` is the new internal rendering engine which should drastically shrink bundle sizes  | `Bazel` is the new build system tool/process, to be ready for official use with Angular to optimize overall build flow and speed (Webpack, TypeScript)| `Differential loading` is process which automatically creates multiple production bundles for modern and legacy browsers        |
@@ -157,7 +159,7 @@ new syntax:
 
 04 Upgrading to Angular8
 =====================
-- Only one command to take care of update an existing app to to Angular8:
+- Only one command to take care of update an existing app to Angular8:
 ```
 ng update @angular/cli @angular/core
 ```
