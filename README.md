@@ -36,7 +36,7 @@ Topics include
 
 02 Angular8 New features
 =====================
-- As Google Angular Team announced and planned, Major version upgrade twice a year - Angular 8 was released in May 2019, Angular 9 is in pipeline - can be release in October/Novmber 2019.  
+- As Google Angular Team announced and planned, `Major version upgrade twice a year` - Angular 8 was released in May 2019, **Angular 9 is in pipeline - can be release in October/Novmber 2019**.  
 - Angular 8 release improves:
     - application startup time on modern browsers, 
     - provides new APIs for tapping into the CLI, and 
@@ -77,7 +77,7 @@ Will now changed and look like this:
 
 2.3. Experimental support for Ivy
 ---------------------
-- `Ivy` is the new, latest and improved internal rendering engine from Angular team which drastically shrinks bundle sizes
+- `Ivy` is the new, latest and improved internal `rendering engine` from Angular team which drastically shrinks bundle sizes
 - Ivy works on translating templates and components into regular HTML and JavaScript that the browser can easily understand
 - In Angular 8 release - Ivy is `Not yet stable/ready for production`, it may be official/default rendering engine in Angular 9 
 - A developer can enable `Ivy` in Angular application by using the command:
@@ -89,7 +89,7 @@ ng new angular8-demo --enable-ivy
 
 2.4. Bazel
 ---------------------
-- `Bazel` is the new build system tool/process, to be ready for official use with Angular to optimize overall build flow and speed (Webpack, TypeScript)
+- `Bazel` is the new `build system tool/process`, to be ready for official use with Angular to optimize overall build flow and speed (Webpack, TypeScript)
 - In Angular 8 release - Bazel is `Not yet stable / its experimental`, it may be an official/default build system tool in Angular 9 
 - To use Bazel in a new application, first install @angular/bazel globally:
 ```
@@ -112,7 +112,7 @@ ng add @angular/bazel
 2.6. Web Worker Support
 ---------------------
 - Web workers are taken into consideration when building the production bundles which helps increase the performance
-- Web workers are a great way to speed up your application of CPU-intensive processing, as Web workers allow you to offload work to a background thread (such as an image or video manipulation)
+- Web workers are a great way to speed up your application of CPU-intensive processing, as Web workers allow you to offload `work to a background thread` (such as an image or video manipulation)
 - Command to generate and add Web Worker
 ```
 ng generate webWorker video-worker
@@ -123,7 +123,7 @@ ng generate webWorker video-worker
 
 | Experimental support for Ivy | Experimental support for Bazel | Differential loading   | 
 | -----------------------------|------------------|------------------|
-| `Ivy` is the new internal rendering engine which should drastically shrink bundle sizes  | `Bazel` is the new build system tool/process, to be ready for official use with Angular to optimize overall build flow and speed (Webpack, TypeScript)| `Differential loading` is process which automatically creates multiple production bundles for modern and legacy browsers        |
+| `Ivy` is the new internal `rendering engine` which should drastically shrink bundle sizes  | `Bazel` is the new `build system tool/process`, to be ready for official use with Angular to optimize overall build flow and speed (Webpack, TypeScript)| `Differential loading` is process which automatically creates multiple production bundles for modern and legacy browsers        |
 | Not yet stable/ready for production          | Not fully finished/tested              | Decreases bundle size 7-20%           |
 | Can be enabled to check/play around          | Can be enabled to check/play around    | Just use the command: `ng build --prod`    |
 
@@ -133,11 +133,11 @@ Here are some of the breaking changes one should check/verify and ensure while w
 
 3.1. Typescript version
 ---------------------
-- To work with Angular 8 you must need and use Typescript version 3.4 and above
+- To work with Angular 8 you must need and `use Typescript version 3.4 and above`
 
 3.2. Node version
 ---------------------
-- With Angular 8 you must need and use Node version 12 or later
+- With Angular 8 you must need and `use Node version 12 or later`
 
 3.3. HttpModule and Http service
 ---------------------
@@ -147,6 +147,7 @@ Here are some of the breaking changes one should check/verify and ensure while w
 3.4. ViewChild ContentChild syntax
 ---------------------
 - In Angular 8 ViewChild syntax changed:
+
 old syntax:
 ```ts
 @ViewChild('header') header: ElementRef;
