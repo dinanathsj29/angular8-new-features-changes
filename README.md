@@ -36,7 +36,7 @@ Topics include
 
 02 Angular8 New features
 =====================
-- As Google Angular Team announced and planned, `Major version upgrade twice a year` - Angular 8 was released in May 2019, **Angular 9 is in pipeline - can be release in October/Novmber 2019**.  
+- As Google Angular Team announced and planned, `Major version upgrade twice a year` - Angular 8 was released in May 2019, **Angular 9 is in pipeline - can be released in October/November 2019**.  
 - Angular 8 release improves:
     - application startup time on modern browsers, 
     - provides new APIs for tapping into the CLI, and 
